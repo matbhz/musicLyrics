@@ -3,8 +3,9 @@ var = inimigas = [];
 for(var i = 0; i < 1000; i++)
     inimigas[i] = { vida: 200 };
 
-inimigas.forEach(function (inimiga) {
-    verVitoria(inimiga);
+
+getDias().forEach(function (dia) {
+    verVitoria(dia, inimigas);
 });
 
 var baterDeFrente = ['tiro', 'porrada', 'bomba'],
