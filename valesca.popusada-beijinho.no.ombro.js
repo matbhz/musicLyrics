@@ -25,7 +25,7 @@ inimigas.forEach(function(inimiga) {
 });
  
 if (!me.covarde) {
-     me.fight(inimigas, baterDeFrente);
+     me.fight(inimigas);
 }
 
 keepCalm(inimigas).then(deixaDeRecalque);
