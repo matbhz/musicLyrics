@@ -1,5 +1,6 @@
+"use strict";
 
-var = inimigas = [];
+var  inimigas = [];
 for(var i = 0; i < 1000; i++)
     inimigas[i] = { vida: 200 };
 
